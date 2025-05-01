@@ -1,4 +1,4 @@
-FROM kathara/base
+FROM marck244/kathara-base-netsecfwlab
 LABEL org.opencontainers.image.authors="Kathara Team <contact@kathara.org>"
 
 RUN curl -s https://deb.frrouting.org/frr/keys.asc | apt-key add -   
